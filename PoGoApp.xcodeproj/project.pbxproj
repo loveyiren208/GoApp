@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4407A7B71D3845AE00B67224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4407A7B61D3845AE00B67224 /* main.m */; };
+		4407A7BA1D3845AE00B67224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4407A7B91D3845AE00B67224 /* AppDelegate.m */; };
+		4407A7BD1D3845AE00B67224 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4407A7BC1D3845AE00B67224 /* ViewController.m */; };
+		4407A7C01D3845AE00B67224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4407A7BE1D3845AE00B67224 /* Main.storyboard */; };
+		4407A7C21D3845AE00B67224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4407A7C11D3845AE00B67224 /* Assets.xcassets */; };
+		4407A7C51D3845AE00B67224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4407A7C31D3845AE00B67224 /* LaunchScreen.storyboard */; };
+		4407A7D01D3845AE00B67224 /* PoGoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4407A7CF1D3845AE00B67224 /* PoGoAppTests.m */; };
+		4407A7DB1D3845AE00B67224 /* PoGoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4407A7DA1D3845AE00B67224 /* PoGoAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4407A7CC1D3845AE00B67224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4407A7AA1D3845AE00B67224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4407A7B11D3845AE00B67224;
+			remoteInfo = PoGoApp;
+		};
+		4407A7D71D3845AE00B67224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4407A7AA1D3845AE00B67224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4407A7B11D3845AE00B67224;
+			remoteInfo = PoGoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4407A7B21D3845AE00B67224 /* PoGoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoGoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4407A7B61D3845AE00B67224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4407A7B81D3845AE00B67224 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4407A7B91D3845AE00B67224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4407A7BB1D3845AE00B67224 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4407A7BC1D3845AE00B67224 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4407A7BF1D3845AE00B67224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4407A7C11D3845AE00B67224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4407A7C41D3845AE00B67224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4407A7C61D3845AE00B67224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4407A7CB1D3845AE00B67224 /* PoGoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoGoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4407A7CF1D3845AE00B67224 /* PoGoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoGoAppTests.m; sourceTree = "<group>"; };
+		4407A7D11D3845AE00B67224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4407A7D61D3845AE00B67224 /* PoGoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoGoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4407A7DA1D3845AE00B67224 /* PoGoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoGoAppUITests.m; sourceTree = "<group>"; };
+		4407A7DC1D3845AE00B67224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4407A7AF1D3845AE00B67224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407A7C81D3845AE00B67224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407A7D31D3845AE00B67224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4407A7A91D3845AE00B67224 = {
+			isa = PBXGroup;
+			children = (
+				4407A7B41D3845AE00B67224 /* PoGoApp */,
+				4407A7CE1D3845AE00B67224 /* PoGoAppTests */,
+				4407A7D91D3845AE00B67224 /* PoGoAppUITests */,
+				4407A7B31D3845AE00B67224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4407A7B31D3845AE00B67224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4407A7B21D3845AE00B67224 /* PoGoApp.app */,
+				4407A7CB1D3845AE00B67224 /* PoGoAppTests.xctest */,
+				4407A7D61D3845AE00B67224 /* PoGoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4407A7B41D3845AE00B67224 /* PoGoApp */ = {
+			isa = PBXGroup;
+			children = (
+				4407A7B81D3845AE00B67224 /* AppDelegate.h */,
+				4407A7B91D3845AE00B67224 /* AppDelegate.m */,
+				4407A7BB1D3845AE00B67224 /* ViewController.h */,
+				4407A7BC1D3845AE00B67224 /* ViewController.m */,
+				4407A7BE1D3845AE00B67224 /* Main.storyboard */,
+				4407A7C11D3845AE00B67224 /* Assets.xcassets */,
+				4407A7C31D3845AE00B67224 /* LaunchScreen.storyboard */,
+				4407A7C61D3845AE00B67224 /* Info.plist */,
+				4407A7B51D3845AE00B67224 /* Supporting Files */,
+			);
+			path = PoGoApp;
+			sourceTree = "<group>";
+		};
+		4407A7B51D3845AE00B67224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4407A7B61D3845AE00B67224 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4407A7CE1D3845AE00B67224 /* PoGoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4407A7CF1D3845AE00B67224 /* PoGoAppTests.m */,
+				4407A7D11D3845AE00B67224 /* Info.plist */,
+			);
+			path = PoGoAppTests;
+			sourceTree = "<group>";
+		};
+		4407A7D91D3845AE00B67224 /* PoGoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4407A7DA1D3845AE00B67224 /* PoGoAppUITests.m */,
+				4407A7DC1D3845AE00B67224 /* Info.plist */,
+			);
+			path = PoGoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4407A7B11D3845AE00B67224 /* PoGoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4407A7DF1D3845AE00B67224 /* Build configuration list for PBXNativeTarget "PoGoApp" */;
+			buildPhases = (
+				4407A7AE1D3845AE00B67224 /* Sources */,
+				4407A7AF1D3845AE00B67224 /* Frameworks */,
+				4407A7B01D3845AE00B67224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoGoApp;
+			productName = PoGoApp;
+			productReference = 4407A7B21D3845AE00B67224 /* PoGoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4407A7CA1D3845AE00B67224 /* PoGoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4407A7E21D3845AE00B67224 /* Build configuration list for PBXNativeTarget "PoGoAppTests" */;
+			buildPhases = (
+				4407A7C71D3845AE00B67224 /* Sources */,
+				4407A7C81D3845AE00B67224 /* Frameworks */,
+				4407A7C91D3845AE00B67224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4407A7CD1D3845AE00B67224 /* PBXTargetDependency */,
+			);
+			name = PoGoAppTests;
+			productName = PoGoAppTests;
+			productReference = 4407A7CB1D3845AE00B67224 /* PoGoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4407A7D51D3845AE00B67224 /* PoGoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4407A7E51D3845AE00B67224 /* Build configuration list for PBXNativeTarget "PoGoAppUITests" */;
+			buildPhases = (
+				4407A7D21D3845AE00B67224 /* Sources */,
+				4407A7D31D3845AE00B67224 /* Frameworks */,
+				4407A7D41D3845AE00B67224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4407A7D81D3845AE00B67224 /* PBXTargetDependency */,
+			);
+			name = PoGoAppUITests;
+			productName = PoGoAppUITests;
+			productReference = 4407A7D61D3845AE00B67224 /* PoGoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4407A7AA1D3845AE00B67224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wang, Xiaonan";
+				TargetAttributes = {
+					4407A7B11D3845AE00B67224 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H3DL6G5LXS;
+					};
+					4407A7CA1D3845AE00B67224 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H3DL6G5LXS;
+						TestTargetID = 4407A7B11D3845AE00B67224;
+					};
+					4407A7D51D3845AE00B67224 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H3DL6G5LXS;
+						TestTargetID = 4407A7B11D3845AE00B67224;
+					};
+				};
+			};
+			buildConfigurationList = 4407A7AD1D3845AE00B67224 /* Build configuration list for PBXProject "PoGoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4407A7A91D3845AE00B67224;
+			productRefGroup = 4407A7B31D3845AE00B67224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4407A7B11D3845AE00B67224 /* PoGoApp */,
+				4407A7CA1D3845AE00B67224 /* PoGoAppTests */,
+				4407A7D51D3845AE00B67224 /* PoGoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4407A7B01D3845AE00B67224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4407A7C51D3845AE00B67224 /* LaunchScreen.storyboard in Resources */,
+				4407A7C21D3845AE00B67224 /* Assets.xcassets in Resources */,
+				4407A7C01D3845AE00B67224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407A7C91D3845AE00B67224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407A7D41D3845AE00B67224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4407A7AE1D3845AE00B67224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4407A7BD1D3845AE00B67224 /* ViewController.m in Sources */,
+				4407A7BA1D3845AE00B67224 /* AppDelegate.m in Sources */,
+				4407A7B71D3845AE00B67224 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407A7C71D3845AE00B67224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4407A7D01D3845AE00B67224 /* PoGoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407A7D21D3845AE00B67224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4407A7DB1D3845AE00B67224 /* PoGoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4407A7CD1D3845AE00B67224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4407A7B11D3845AE00B67224 /* PoGoApp */;
+			targetProxy = 4407A7CC1D3845AE00B67224 /* PBXContainerItemProxy */;
+		};
+		4407A7D81D3845AE00B67224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4407A7B11D3845AE00B67224 /* PoGoApp */;
+			targetProxy = 4407A7D71D3845AE00B67224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4407A7BE1D3845AE00B67224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4407A7BF1D3845AE00B67224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4407A7C31D3845AE00B67224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4407A7C41D3845AE00B67224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4407A7DD1D3845AE00B67224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4407A7DE1D3845AE00B67224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4407A7E01D3845AE00B67224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoGoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.PoGoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4407A7E11D3845AE00B67224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoGoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.PoGoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4407A7E31D3845AE00B67224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PoGoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.PoGoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoGoApp.app/PoGoApp";
+			};
+			name = Debug;
+		};
+		4407A7E41D3845AE00B67224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PoGoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.PoGoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoGoApp.app/PoGoApp";
+			};
+			name = Release;
+		};
+		4407A7E61D3845AE00B67224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PoGoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.PoGoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PoGoApp;
+			};
+			name = Debug;
+		};
+		4407A7E71D3845AE00B67224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PoGoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.PoGoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PoGoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4407A7AD1D3845AE00B67224 /* Build configuration list for PBXProject "PoGoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4407A7DD1D3845AE00B67224 /* Debug */,
+				4407A7DE1D3845AE00B67224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4407A7DF1D3845AE00B67224 /* Build configuration list for PBXNativeTarget "PoGoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4407A7E01D3845AE00B67224 /* Debug */,
+				4407A7E11D3845AE00B67224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4407A7E21D3845AE00B67224 /* Build configuration list for PBXNativeTarget "PoGoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4407A7E31D3845AE00B67224 /* Debug */,
+				4407A7E41D3845AE00B67224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4407A7E51D3845AE00B67224 /* Build configuration list for PBXNativeTarget "PoGoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4407A7E61D3845AE00B67224 /* Debug */,
+				4407A7E71D3845AE00B67224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4407A7AA1D3845AE00B67224 /* Project object */;
+}
